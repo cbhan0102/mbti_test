@@ -1,3 +1,22 @@
 h1 {
     color: red;
 }
+
+a:active {
+    color:green;
+    background-color:aquamarine;
+}
+
+.btn {
+    background-color: blueviolet;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.btn span {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
