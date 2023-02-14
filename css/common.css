@@ -25,7 +25,6 @@ body {
     margin-bottom: 20px;
 }
 .btn {
-    background-color: #ffa32d;
     max-width: 500px;
     height: 100px;
     display: flex;
@@ -37,8 +36,40 @@ body {
     cursor: pointer;
     border-radius: 20px;
     margin-bottom: 35px;
-    color: #FFFFFF;
-    box-shadow: 0 14px 0 #e66000;
     margin-left: auto;
     margin-right: auto;
+    transition: 0.3s;
+}
+.btn-orange {
+    background-color: #ffA32D;
+    box-shadow: 0 14px 0 #E66000;
+    color: #FFFFFF;
+}
+.btn-orange:active {
+    box-shadow: 0 4px 0 #E66000;
+    transform:  translateY(10px);
+}
+.btn-green {
+    background-color: #32BFA1;
+    box-shadow: 0 14px 0 #299a82;
+    color: #FFFFFF;
+}
+.btn-green:active {
+    box-shadow: 0 4px 0 #299a82;
+    transform:  translateY(10px);
+}
+.btn-gray {
+    background-color: #F2F4F6;
+    box-shadow: 0 14px 0 #DFE1E2;
+    color: #444444;
+}
+.btn-gray:active {
+    box-shadow: 0 4px 0 #DFE1E2;
+    transform:  translateY(10px);
+}
+.btn-small {
+    max-width: 350px;
+    height: 70px;
+    font-size: 26px;
+    margin-bottom: 30px;
 }
