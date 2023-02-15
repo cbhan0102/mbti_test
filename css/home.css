@@ -1,0 +1,13 @@
+body {
+    background-color: gray;
+    background-image: url("../images/main_bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat; /* 이미지 반복적으로 보여줄건지? */
+}
+.character {
+    width: 100%;
+    max-width: 364px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
