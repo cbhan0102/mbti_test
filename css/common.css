@@ -1,6 +1,12 @@
 body {
     font-family: "Pretendard Variable", sans-serif;
-    }
+    word-break: keep-all;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+img {
+    display: block;
+}
 .page-title {
     font-size: 50px;
     font-weight: 800;
