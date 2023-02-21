@@ -18,4 +18,7 @@ function renderQuestion() {
     progressValueEl.style.width = (currentNumber + 1) * 10 + '%'
 }
 
-renderQuestion()
+
+function showResultPage() {
+    location.href = '/results.html?mbti=' + mbti //쿼리스트링
+}
